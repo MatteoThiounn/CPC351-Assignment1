@@ -88,7 +88,7 @@ validate_puzzle <- function(puzzle) {
 # -------------------------------------
 setwd("C:/Data/CPC351")
 puzzle1 <- read_puzzle("input1.txt")
-puzzle2 <- read_puzzle("input2.txt")
 validate_puzzle(puzzle1)
+puzzle2 <- read_puzzle("input2.txt")
 validate_puzzle(puzzle2)
 # -------------------------------------
